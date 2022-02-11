@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+}
+
+.container .block{
+
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    background: #f00;
+    transform-style: preserve-3d;
+    /*box-sizing: border-box;
+    border: 1px solid #111;*/
+    background: url(Asset\ 1-01.png);
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
